@@ -337,17 +337,17 @@ if ($filter_kategori) {
     <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
         <div class="container">
             <a class="navbar-brand fw-bold" href="dashboard.php">
-                <i class="fas fa-arrow-left me-2 text-primary"></i>Dashboard Mahasiswa
+                <i class="fas fa-arrow-left me-2 text-primary"></i>Dashboard Mahasiswa polinela
             </a>
             <div class="navbar-nav ms-auto">
                 <a class="nav-link" href="dashboard.php">
                     <i class="fas fa-tachometer-alt me-1"></i>Dashboard
                 </a>
                 <a class="nav-link" href="../index.php">
-                    <i class="fas fa-home me-1"></i>Beranda
+                    <i class="fas fa-home me-1"></i>Berandaa
                 </a>
                 <a class="nav-link" href="../auth/logout.php">
-                    <i class="fas fa-sign-out-alt me-1"></i>Logout
+                    <i class="fas fa-sign-out-alt me-1"></i>Logoutt
                 </a>
             </div>
         </div>
