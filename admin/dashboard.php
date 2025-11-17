@@ -106,7 +106,7 @@ $recent_pendaftaran = $stmt->fetchAll(PDO::FETCH_ASSOC);
                             <i class="fas fa-user-graduate me-2"></i> Data Mahasiswa
                         </a>
                         <a class="nav-link" href="kelola_pendaftaran.php">
-                            <i class="fas fa-clipboard-list me-2"></i> Pendaftaran
+                            <i class="fas fa-clipboard-list me-2"></i> Pendaftaran 
                         </a>
                         <a class="nav-link" href="laporan.php">
                             <i class="fas fa-chart-bar me-2"></i> Laporan
