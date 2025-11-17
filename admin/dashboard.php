@@ -351,5 +351,6 @@ $recent_pendaftaran = $stmt->fetchAll(PDO::FETCH_ASSOC);
             });
         });
     </script>
+    <p class="text-center text-muted mt-3">Ditambahkan oleh Ari - KSI 2025</p>
 </body>
 </html>
