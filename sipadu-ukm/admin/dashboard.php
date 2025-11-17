@@ -167,8 +167,7 @@ $recent_pendaftaran = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                         </div>
                                         <div class="ms-3">
                                             <h3 class="mb-0"><?= $stats['total_mahasiswa'] ?></h3>
-                                            <p class="text-muted mb-0">Mahasiswa Polinela</p>
-                                            <p class="text-muted mb-0">Mahasiswa Mi Polinela</p>
+                                            <p class="text-muted mb-0">Mahasiswa</p>
                                         </div>
                                     </div>
                                 </div>
@@ -200,7 +199,7 @@ $recent_pendaftaran = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                         </div>
                                         <div class="ms-3">
                                             <h3 class="mb-0"><?= $stats['pending_pendaftaran'] ?></h3>
-                                            <p class="text-muted mb-0">Pending Approval</p>
+                                            <p class="text-muted mb-0">Menunggu</p>
                                         </div>
                                     </div>
                                 </div>
@@ -238,11 +237,6 @@ $recent_pendaftaran = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                             <a href="laporan.php" class="btn btn-info w-100">
                                                 <i class="fas fa-download"></i> Export Laporan
                                             </a>
-                                        </div>
-                                        <!-- TAMBAHAN BARU DARI SALIM -->
-                                            <div class="col-md-3 mb-2">
-                                                <a href="kelola_mahasiswa.php?action=add" class="btn btn-secondary w-100">
-                                                    <i class="fas fa-user-plus"></i> Tambah Mahasiswa </a>
                                         </div>
                                     </div>
                                 </div>
