@@ -167,7 +167,7 @@ $recent_pendaftaran = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                         </div>
                                         <div class="ms-3">
                                             <h3 class="mb-0"><?= $stats['total_mahasiswa'] ?></h3>
-                                            <p class="text-muted mb-0">Mahasiswa</p>
+                                            <p class="text-muted mb-0">Mahasiswa Polinela</p>
                                         </div>
                                     </div>
                                 </div>
