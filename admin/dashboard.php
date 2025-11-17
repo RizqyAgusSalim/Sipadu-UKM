@@ -199,7 +199,7 @@ $recent_pendaftaran = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                         </div>
                                         <div class="ms-3">
                                             <h3 class="mb-0"><?= $stats['pending_pendaftaran'] ?></h3>
-                                            <p class="text-muted mb-0">Menunggu</p>
+                                            <p class="text-muted mb-0">Pending Approval</p>
                                         </div>
                                     </div>
                                 </div>
